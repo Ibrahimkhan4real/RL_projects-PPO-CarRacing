@@ -25,8 +25,21 @@ For
   ```bash
   pip install gymnasium
 - stable_baselines3
+  ``` bash
+  pip install stable_baselines3
 
 ## Training the agent
+In order to train the PPO agent from scratch, download the train+evaluate.py file and run the following command:
+```bash
+python3 train+evaluate.py
+```
+## Evaluating and Visualising the trained agent
+In order to evaluate the trained agent, down the evaluate.py file and run the following command:
+```bash
+python3 evaluate.py
+```
+
+[You can watch the performance of my model here.](https://example.com/video.mp4)
 
 
 
