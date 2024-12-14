@@ -22,7 +22,7 @@ For
 ## Prerequisites
 - Python 3.8+
 - gymnasium
-  '''bash
+  ```bash
   pip install gymnasium
 - stable_baselines3
 
