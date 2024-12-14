@@ -9,14 +9,6 @@ For
 - Customisation: Codebase allows easy adaptation for hyperparameter tuning and integration with other continuous control environments.
 - Evaluation: Includes evaluation scripts to test the trained agent over multiple episodes with real-time visualisation (render_mode='human').
 
-## Repository Content
-- train.py: Script to train the PPO agent on the CarRacing-v3 environment.
-- evaluate.py: Script to evaluate the trained policy with visual rendering and performance metrics.
-- Pretrained Model: Includes a pretrained PPO model (ppo_carracing.zip) capable of solving the environment with high rewards.
-- Environment Wrapper: Adds custom handling for resetting, stepping, and rendering the environment.
-- Requirements: Dependencies are managed for seamless execution.
-
-
 # Getting Started
 
 ## Prerequisites
