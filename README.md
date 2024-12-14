@@ -39,7 +39,7 @@ In order to evaluate the trained agent, down the evaluate.py file and run the fo
 python3 evaluate.py
 ```
 
-[You can watch the performance of my model here.]([https://youtu.be/LmB9t8Ld7Fk])
+[You can watch my model performance here.](https://youtu.be/LmB9t8Ld7Fk)
 
 
 
