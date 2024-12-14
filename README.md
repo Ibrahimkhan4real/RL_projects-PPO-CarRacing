@@ -38,5 +38,5 @@ python3 evaluate.py
 ## Results
 The PPO-trained agent successfully navigates the CarRacing-v3 track, achieving a high cumulative reward while staying on track. Evaluation metrics and training curves are included for detailed performance analysis.
 I trained my model on a 1 million timesteps
-[You can watch my model performance here.](https://youtu.be/LmB9t8Ld7Fk)
+[You can watch my model performance here.](https://youtu.be/3GlNIYZ7EUc)
 
