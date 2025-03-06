@@ -1,5 +1,5 @@
 # RL_projects-PPO-CarRacing
-This repository provides one of the simplest solutions for the CarRacing-v3 environment from Gymnasium, using the Proximal Policy Optimisation (PPO) algorithm, implemented with the Stable-Baselines3 library. The CarRacing-v3 task is a continuous control problem in which the agent must drive a car to maximise rewards by staying on track and avoiding collisions.
+This repository provides one of the simplest solutions for the CarRacing-v3 environment from Gymnasium, using the Proximal Policy Optimisation (PPO) algorithm, implemented with the Stable-Baselines3 library. The CarRacing-v3 task is a continuous control problem in which the agent must drive a car to maximise rewards by staying on track and avoiding collisions. [Game Environment here.](https://gymnasium.farama.org/environments/box2d/car_racing/)
 
 For 
 
@@ -8,6 +8,10 @@ For
 - Reinforcement Learning: Implements PPO, a state-of-the-art on-policy algorithm known for its stability and sample efficiency.
 - Customisation: Codebase allows easy adaptation for hyperparameter tuning and integration with other continuous control environments.
 - Evaluation: Includes evaluation scripts to test the trained agent over multiple episodes with real-time visualisation (render_mode='human').
+
+### Action Space
+
+### State Space
 
 # Getting Started
 
