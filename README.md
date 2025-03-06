@@ -10,8 +10,19 @@ For
 - Evaluation: Includes evaluation scripts to test the trained agent over multiple episodes with real-time visualisation (render_mode='human').
 
 ### Action Space
+If continuous there are 3 actions :
+
+- 0: steering, -1 is full left, +1 is full right
+
+- 1: gas
+
+- 2: braking
 
 ### State Space
+A top-down 96x96 RGB image of the car and race track.
+
+### Rewards
+The reward is -0.1 every frame and +1000/N for every track tile visited, where N is the total number of tiles visited in the track. For example, if you have finished in 732 frames, your reward is 1000 - 0.1*732 = 926.8 points.
 
 # Getting Started
 
